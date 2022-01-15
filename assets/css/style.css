@@ -1,0 +1,45 @@
+/* All listings */
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.listing {
+    text-align: center;
+    margin: 20px 30px;
+    background-color: #a2c7ff;
+}
+
+.content {
+    padding: 20px;
+}
+
+.listing img {
+    max-width: 200px;
+}
+
+.listing a {
+    text-decoration: none;
+    color: #000;
+}
+
+.listing a:visited {
+    color: unset;
+}
+
+@media (max-width: 930px) {
+    .container {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Single Item */
+
+.item {
+    text-align: center;
+}
+
+.item img {
+    max-width: 400px;
+}
